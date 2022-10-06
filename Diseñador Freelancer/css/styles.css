@@ -1,37 +1,30 @@
+:root{
+  --blanco: #FFFFFF;
+  --oscuro: #212121;
+  --primary: #FFC107;
+  --secundary:  #0097A7;
+  --gris:  #757575;
+
+  --fuente_p:  1.8rem;
+}
+
   html{
-    font-size: 72.5;
+    font-size: 62.5;
   }
+
   body{
-    font-size: 18px;
+    font-size: 16px;
   }
+
   .titulo{
     text-align: justify;
-    color: purple;
-    width: 20rem;/*1rem = 10px*/
+    font-size: var(--fuente_p);
+    color: var(--primary);
+    font-family: Arial; /*Google fonts for more options*/
   }
+
   /*We can use rem, em, px for the size of text*/
   .titulo span{ /*Se usa el h1 span porque solo queremos editar ese*/
     font-size: 2rem;
     color: green;
   }
-  p{
-    color: blue;
-  }
-  nav{
-    font-size: 32px;
-  }
-
-  .Sec p{
-  font-size: 22px;
-  color: green;
-}
-
-  .Sec2 p{
-font-size: 22px;
-color: #FF00FF;
-}
-
-  .Sec3 p{
-font-size: 22px;
-color: pink;
-}
