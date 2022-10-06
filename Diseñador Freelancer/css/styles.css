@@ -20,7 +20,7 @@
     text-align: justify;
     font-size: var(--fuente_p);
     color: var(--primary);
-    font-family: Arial; /*Google fonts for more options*/
+    font-family: Times New;
   }
 
   /*We can use rem, em, px for the size of text*/
